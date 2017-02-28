@@ -1,0 +1,115 @@
+body {
+  font-family: "Arial"
+}
+
+a {
+  text-decoration: none;
+}
+
+.product {
+  border: 1px solid #aaa;
+  display: inline-block;
+  margin: 10px
+}
+
+.product img {
+  margin-top: 38px;
+  margin-left: 13px;
+}
+
+.productdesc {
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  top: -1px;
+  bottom: 0;
+  left: 13px;
+  opacity: 0.8;
+  transition: .5s ease;
+  right: 0;
+  background: black;
+  color: #fff;
+  overflow: scroll;
+  display: none;
+}
+
+.description {
+  padding: 10px;
+}
+
+
+.col1 {
+  float: left;
+}
+
+.col3 {
+  float: right;
+}
+
+div .title {
+  font-size: 16px;
+}
+
+h1.title {
+  font-size: 36px;
+}
+
+.container.tagline {
+  font-size: 18px;
+}
+
+
+
+/*tagline header*/
+
+#tag {
+  font-size: 18px !important;
+}
+
+.imagesbox {
+  margin-top: 25px;
+}
+
+.imghover {
+  padding: 0px;
+  position: relative;
+}
+/*image delete on clicking cross @right*/
+.close {
+  float: right;
+  font-size: 41px !important;
+  font-weight: 900;
+  line-height: ;
+  color: #000;
+  text-shadow: 0 1px 0 #a94442;
+  opacity: 0.6 !important;
+}
+/*page loading */
+#cover {
+  background: url("http://www.aveva.com/Images/ajax-loader.gif") no-repeat scroll center center #FFF;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+/*media queries for image boxes*/
+
+@media screen and (max-width: 980px) {
+  div.tagline {
+    font-size: 8px;
+  }
+  div.title {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  div.tagline {
+    font-size: 3px;
+  }
+  div.title {
+    font-size: 3px;
+  }
+}
